@@ -14,8 +14,7 @@ public class Collection {
 	 * @return true if this is empty or false if it isn't
 	 */
 	public boolean isEmpty() {
-		if(this.size() == 0) return true;
-		else return false;
+		return this.size() == 0;
 	}
 	
 	/**
